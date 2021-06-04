@@ -1,0 +1,17 @@
+
+<div class="container">
+<div class="row">
+    <div class="col-md-3" *ngFor="let movie of movies;let x = odd;let even = even">
+        <img [src]="baseURL + movie.poster_path" class="img-fluid" alt="">
+        <h2 [ngClass]="{'text-info':even}">{{movie.title | uppercase}}</h2>
+        <p>{{movie.overview | overview:x?40:20}}</p>
+    </div>
+</div>
+</div>
+
+<!-- pipe
+build pipe
+custom pipe
+
+-->
+
