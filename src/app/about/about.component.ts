@@ -11,7 +11,7 @@ export class AboutComponent  {
 // dependncy injection
   userName:string = "nour saeed";
   imgSrc: string = "../../assets/Web-design-1.jpg";
-  isMaried: boolean = false;
+  hambozooo: boolean = false;
   inputValue: string = "hi"
   price : number = 3000;
   friends: string[] = ["nour", "ahmed", "mohamed","aya"]
